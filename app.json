@@ -5,7 +5,7 @@
     "owner": "rubel-engine",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./android-icon-foreground.png",
     "scheme": "rubelengine",
     "userInterfaceStyle": "dark",
     "newArchEnabled": true,
@@ -15,7 +15,7 @@
       }
     },
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./android-icon-foreground.png",
       "resizeMode": "contain",
       "backgroundColor": "#080C14"
     },
@@ -23,7 +23,7 @@
       "package": "com.rubelengine.app",
       "adaptiveIcon": {
         "backgroundColor": "#080C14",
-        "foregroundImage": "./assets/android-icon-foreground.png"
+        "foregroundImage": "./android-icon-foreground.png"
       }
     },
     "ios": {
@@ -31,7 +31,7 @@
       "bundleIdentifier": "com.rubelengine.app"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./android-icon-foreground.png"
     }
   }
 }
