@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Rubel Engine",
-    "slug": "rubel-engine-project",
+    "slug": "Rubel-Gemini-Engine",
     "owner": "mdrubel",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,14 +9,15 @@
     "scheme": "rubelengine",
     "userInterfaceStyle": "dark",
     "newArchEnabled": true,
+    "extra": {
+      "eas": {
+        "projectId": "72691501-83d7-463d-82c5-392815147481"
+      }
+    },
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#080C14"
-    },
-    "ios": {
-      "supportsTablet": false,
-      "bundleIdentifier": "com.rubelengine.app"
     },
     "android": {
       "package": "com.rubelengine.app",
@@ -24,6 +25,10 @@
         "backgroundColor": "#080C14",
         "foregroundImage": "./assets/android-icon-foreground.png"
       }
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.rubelengine.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
