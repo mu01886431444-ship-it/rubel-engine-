@@ -13,6 +13,10 @@
       "resizeMode": "contain",
       "backgroundColor": "#080C14"
     },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.rubelengine.app"
+    },
     "android": {
       "package": "com.rubelengine.app",
       "adaptiveIcon": {
