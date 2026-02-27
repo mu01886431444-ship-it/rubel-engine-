@@ -8,19 +8,10 @@
     "scheme": "rubelengine",
     "userInterfaceStyle": "dark",
     "newArchEnabled": true,
-    "extra": {
-      "eas": {
-        "projectId": "ca8435b0-d611-4485-bc3e-5c442b3cc1a2"
-      }
-    },
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#080C14"
-    },
-    "ios": {
-      "supportsTablet": false,
-      "bundleIdentifier": "com.rubelengine.app"
     },
     "android": {
       "package": "com.rubelengine.app",
@@ -28,9 +19,6 @@
         "backgroundColor": "#080C14",
         "foregroundImage": "./assets/android-icon-foreground.png"
       }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
     }
   }
 }
