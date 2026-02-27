@@ -3,11 +3,12 @@
     "name": "Rubel Engine",
     "slug": "rubel-gemini-engine-0snnbv",
     "owner": "rubel-engine",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
-    "icon": "./android-icon-foreground.png",
+    "icon": "android-icon-foreground.png",
     "scheme": "rubelengine",
     "userInterfaceStyle": "dark",
+    "newArchEnabled": false,
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "com.rubelengine.app"
@@ -16,16 +17,16 @@
       "package": "com.rubelengine.app",
       "adaptiveIcon": {
         "backgroundColor": "#080C14",
-        "foregroundImage": "./android-icon-foreground.png"
+        "foregroundImage": "android-icon-foreground.png"
       }
     },
     "splash": {
-      "image": "./android-icon-foreground.png",
+      "image": "android-icon-foreground.png",
       "resizeMode": "contain",
       "backgroundColor": "#080C14"
     },
     "web": {
-      "favicon": "./android-icon-foreground.png"
+      "favicon": "android-icon-foreground.png"
     },
     "extra": {
       "eas": {
