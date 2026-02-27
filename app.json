@@ -8,6 +8,11 @@
     "scheme": "rubelengine",
     "userInterfaceStyle": "dark",
     "newArchEnabled": true,
+    "extra": {
+      "eas": {
+        "projectId": "41505315-7a46-407a-9769-906f36384a62"
+      }
+    },
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
