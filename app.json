@@ -8,16 +8,9 @@
     "icon": "./android-icon-foreground.png",
     "scheme": "rubelengine",
     "userInterfaceStyle": "dark",
-    "newArchEnabled": true,
-    "extra": {
-      "eas": {
-        "projectId": "236b4a2f-8634-4fbe-956b-01195c7ddd89"
-      }
-    },
-    "splash": {
-      "image": "./android-icon-foreground.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#080C14"
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.rubelengine.app"
     },
     "android": {
       "package": "com.rubelengine.app",
@@ -26,12 +19,18 @@
         "foregroundImage": "./android-icon-foreground.png"
       }
     },
-    "ios": {
-      "supportsTablet": false,
-      "bundleIdentifier": "com.rubelengine.app"
+    "splash": {
+      "image": "./android-icon-foreground.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#080C14"
     },
     "web": {
       "favicon": "./android-icon-foreground.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "236b4a2f-8634-4fbe-956b-01195c7ddd89"
+      }
     }
   }
 }
