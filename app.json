@@ -2,6 +2,7 @@
   "expo": {
     "name": "Rubel Engine",
     "slug": "rubel-gemini-engine-0snnbv",
+    "owner": "mdrubel",
     "version": "1.1.0",
     "orientation": "portrait",
     "icon": "./android-icon-foreground.png",
