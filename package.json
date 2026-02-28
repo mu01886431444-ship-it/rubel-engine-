@@ -1,19 +1,22 @@
 {
-  "name": "rubel-gemini-engine",
-  "version": "1.0.1",
+  "name": "rubel-engine-app",
   "main": "index.js",
+  "version": "1.1.0",
   "scripts": {
     "start": "expo start",
     "android": "expo run:android",
-    "ios": "expo run:ios",
-    "web": "expo start --web"
+    "ios": "expo run:ios"
   },
   "dependencies": {
     "expo": "~51.0.28",
-    "expo-router": "~3.5.23",
+    "expo-status-bar": "~1.12.1",
     "react": "18.2.0",
     "react-native": "0.74.5",
-    "expo-status-bar": "~1.12.1"
+    "expo-camera": "~15.0.16",
+    "expo-permissions": "~14.2.1",
+    "expo-splash-screen": "~0.27.5",
+    "expo-constants": "~16.0.2",
+    "expo-linking": "~6.3.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
